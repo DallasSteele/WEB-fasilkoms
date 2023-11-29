@@ -1,0 +1,8 @@
+body {
+    padding-top: 56px;
+  }
+  @media (min-width: 768px) {
+    body {
+      padding-top: 80px;
+    }
+  }
