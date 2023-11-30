@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FASILKOM UEU</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' />
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' />
+    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet' />
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' />
+    <link rel="stylesheet"  href="css_nya/stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="spinner.css">-->
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script type="module" src="index.js"></script>
+    <script defer src="index.js"></script>
+  </head>
+
+<html>
+<body>
+
+ <!-- <div class="loader">
+    <span>L</span>
+    <span>O</span>
+    <span>A</span>
+    <span>D</span>
+    <span>I</span>
+    <span>N</span>
+    <span>G</span>
+  </div>-->
+
+  <div class="navbar">
+    <div class="left-section">
+      <a href="index.html"><img src="imgur/Logo Universitas Esa Unggul.png" alt="Logo" class="logo" width="95" height="75"></a>
+      <a href="index.html"><div class="title">FASILKOM</div></a>
+    </div>
+    <div class="right-section">
+      <div class="nav-links">
+        <a href="index.html" class="btn2">HOME</a>
+        <a href="#ormawa-content" class="btn2" data-scroll onmouseover="showPopup()" onmouseout="hidePopupWithDelay()">ORMAWA</a>
+        <a href="proker.html" class="btn2">PROKER</a>
+        <a href="#SaranaPublik" class="btn2" data-scroll onmouseover="showSaranaPublikPopup()" onmouseout="hideSaranaPublikPopupWithDelay()" >SARANA PUBLIK</a>
+      </div>
+      <div id="popup" class="popup-images" onmouseover="cancelPopupHide()" onmouseout="hidePopupWithDelay()">
+        <a href="dpmf.html"><img src="https://via.placeholder.com/100" alt="Image 1"></a>
+        <a href="bemf.html"><img src="https://via.placeholder.com/100" alt="Image 2"></a>
+        <a href="himastika.html"><img src="imgur/LOGO HIMASTIKA.png" style="width: 100px; height: 100px;"   alt="Image 3"></a>
+        <a href="humanis.html"><img src="https://via.placeholder.com/100" alt="Image 4"></a>
+      </div>
+      <div id="saranaPublikPopup" class="popup-images-2" onmouseover="cancelSaranaPublikPopupHide()" onmouseout="hideSaranaPublikPopupWithDelay()">
+        <a href="LPJOnline.html" class="btn3">LPJ ONLINE</a>
+      </div>
+    </div>
+  </div>
+
+<div class="content-container">
+  <div class="left-side">
+    <h1>FAKULTAS ILMU KOMPUTER</h1>
+    <p>UNIVERSITAS ESA UNGGUL</p>
+  </div>
+  <div class="right-side">
+    <img src="imgur/Logo Universitas Esa Unggul.png" alt="Image on the Right">
+  </div>
+</div>
+
+<p id="ormawa-content"> <br></p>
+<center><h1>ORGANISASI MAHASISWA</h1></center>
+
+<div class="content-containers" >
+  <div class="row">
+    <div class="column">
+      <a href="dpmf.html"><img src="https://via.placeholder.com/400" alt="Image 1"></a>
+      <p>DEWAN PERWAKILAN MAHASISWA FAKULTAS</p>
+    </div>
+    <div class="column">
+      <a href="bemf.html"><img src="https://via.placeholder.com/400" alt="Image 2"></a>
+      <p>BADAN EKSEKUTIF MAHASISWA FAKULTAS</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <a href="himastika.html"><img src="imgur/LOGO HIMASTIKA.png" alt="Image 3"></a>
+      <p>HIMPUNAN MAHASISWA <br>JURUSAN TEKNIK INFORMATIKA</p>
+    </div>
+    <div class="column">
+      <a href="humanis.html"><img src="imgur/LOGO HUMANIS.jpg" alt="Image 4"></a>
+      <p>HIMPUNAN MAHASISWA <br>JURUSAN SISTEM INFORMASI</p>
+    </div>
+  </div>
+</div>
+
+<center><h1>AGENDA</h1></center>
+
+<div class="calendar">
+  <div class="header">
+    <button onclick="prevMonth()">❮</button>
+    <span id="month-year"></span>
+    <button onclick="nextMonth()">❯</button>
+  </div>
+  <div class="days">
+    <div>Sun</div>
+    <div>Mon</div>
+    <div>Tue</div>
+    <div>Wed</div>
+    <div>Thu</div>
+    <div>Fri</div>
+    <div>Sat</div>
+
+  </div>
+  <div class="dates" id="dates"></div>
+</div>
+
+<div id="eventPopup" class="popup" style="display: none;">
+  <div id="eventDate"></div>
+  <div id="eventDetails"></div>
+</div>
+
+
+<p id="SaranaPublik"> <br></p>
+<center><h1>SARANA PUBLIK</h1></center>
+<div class="actionss">
+  <ul class="button-list">
+    <li class="button-list-item"><a href="LPJOnline.html" class="custom-button">LPJ Online</a></li>
+    <br>
+    <li class="button-list-item"><a href="#" class="custom-button">Feedback Untuk Kami!</a></li>
+
+  </ul>
+</div>
+
+
+<center><h1>PROGRAM KERJA</h1></center>
+
+<div class="form-container">
+  <div class="form-box">
+    <img src="imgur/Logo Fasther.png" alt="Image 1">
+    <h4>FASTHER</h4>
+    <p>NEW GEN, NEW RELATION, NEW US</p>
+    <a  href="prokerz/proker-halaman-fasther.html"><button>See More</button></a>
+  </div>
+
+  <div class="form-box">
+    <img src="https://via.placeholder.com/100" alt="Image 2">
+    <h4>SEMINAR</h4>
+    <p>ESSENTIAL SKILLS FOR EFFECTIVE PROJECT MANAGEMENT</p>
+    <a href="proker-halaman.html">  
+<button>Button-name</button>
+    </a>
+  </div>
+
+  <div class="form-box">
+    <img src="https://via.placeholder.com/100" alt="Image 3">
+    <h4>LEADERSHIP TRAINING PROGRAM</h4>
+    <p>Form 3: Some description or text about the form.</p>
+    <a href="proker-halaman.html"><button>See More</button></a>
+  </div>
+</div>
+
+<div class="footer">
+<h1>FAKULTAS ILMU KOMPUTER</h1>
+<h3>UNIVERSITAS ESA UNGGUL</h3>
+
+  <div class="footer-column">
+    <h4>ORMAWA</h4>
+    <p>DPMF</p>
+    <p>BEMF</p>
+    <p>HIMASTIKA</p>
+    <p>HUMANIS</p>
+  </div>
+
+  <div class="footer-column">
+    <h4>INSTAGRAM</h4>
+    <a href="https://www.instagram.com/dpmfasilkomueu/"><p>dpmfasilkomueu</p></a>
+    <a href="https://www.instagram.com/bemfasilkomueu/"><p>bemfasilkomueu</p></a>
+    <a href="https://www.instagram.com/himastika_ueu/"><p>himastika_ueu</p></a>
+    <a href="https://www.instagram.com/humanis_ueu/"><p>humanis_ueu</p></a>
+  </div>
+
+  <div class="footer-column">
+    <h4>EMAIL</h4>
+    <p>dpmfasilkomueu@gmail.com</p>
+    <p>ueu.bemfasilkom@gmail.com</p>
+    <p>himastika2015@gmail.com</p>
+    <p>humanisueu@gmail.com</p>
+  </div>
+
+  <div class="horizontal-line"></div>
+
+  <div class="last-foot">
+    <p>2023 <br> Pengembang Independen Website Esa Unggul <br> Fakultas Ilmu Komputer <br>  <a href="admin_shiz/admin_login.php"><img style="margin-left: 1px;" src="imgur/padlock.png" alt="Logo" class="logo" width="25" height="25"></a></p>  
+  </div>
+</div>
+
+
+<script>
+/*test*/
+</script>
+
+  </body>
+</html>
